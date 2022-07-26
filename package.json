@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest Test",
+    "start": "node src/index.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "jest": "^28.1.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.1"
+  }
+}
